@@ -38,7 +38,7 @@ function number() {
     const space = ' '
     console.log('Numbers');
     a = '12345';
-    for (let i = 0; i < 6; i++) {
+    for (let i = 1; i < 6; i++) {
         console.log(a.substr(0, i));
     }
     console.log('');
@@ -74,7 +74,7 @@ function reversenumber() {
     const space = ' '
     console.log('Reverse Numbers')
     a = '54321';
-    for (let i = 0; i < 6; i++) {
+    for (let i = 1; i < 6; i++) {
         console.log(a.substr(0, i));
     }
     console.log('');
