@@ -7,18 +7,34 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="style.css">
   <title>JavaScript Patterns</title>
-  
 </head>
 
 <body>
   <div class="container">
     <h1>JavaScript Patterns</h1>
-    <section>
-      <button onclick="star()">Star</button>
-      <button onclick="number()">Numbers</button>
-      <button onclick="reversenumber()">Reverse Numbers</button>
-      <button onclick="runningnumber()">Running Numbers</button>
-    </section>
+
+    <div class="dropdown1">
+      <input type="text" class="textBox1" placeholder="Select the Option" readonly>
+      <div class="option1">
+        <div onclick="show1('Star')">Star</div>
+        <div onclick="show1('Number')">Number</div>
+        <div onclick="show1('Reverse Number')">Reverse Number</div>
+        <div onclick="show1('Running Number')">Running Number</div>
+      </div>
+    </div>
+
+    <div class="dropdown2">
+      <input type="text" class="textBox2" placeholder="Select the Option" readonly>
+      <div class="option2">
+        <div onclick="show2('From left')">From left</div>
+        <div onclick="show2('From right')">From right</div>
+        <div onclick="show2('From left top-bottom')">From left top-bottom</div>
+        <div onclick="show2('From right top-bottom')">From right top-bottom</div>
+        <div onclick="show2('Pyramid')">Pyramid</div>
+      </div>
+      <button class="button">Submit</button>
+    </div>
+
   </div>
 
   <script src="script.js"></script>
